@@ -1,0 +1,57 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#main-checkout{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 100px;
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#input{
+    width: 50%;
+}
+
+#input>form{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+}
+#input>form>input{
+    margin: 20px;
+    height: 40px;
+}
+#submit{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#amount{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+#amount>div{
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    /* height: 40px; */
+}
