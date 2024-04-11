@@ -18,3 +18,5 @@ form.addEventListener("submit",function(event){
 btn.addEventListener("click",function(){
     window.location.href = "./signUp.html";
 })
+
+
